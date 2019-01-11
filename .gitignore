@@ -5,3 +5,13 @@
 /.vs/StudentManageContainers/v15/.suo
 /.vs/slnx.sqlite
 /.vs/StudentManageContainers/v15/Server/sqlite3
+/src/Student.Web/obj
+/src/Student.Web/bin/Debug/netcoreapp2.1
+/src/Student.Domain/bin/Debug/netstandard2.0
+/src/Student.Domain/obj
+/src/Student.Infrastructure/bin/Debug/netstandard2.0
+/src/Student.Infrastructure/obj
+/src/Student.Repositories/bin/Debug/netstandard2.0
+/src/Student.Repositories/obj
+/src/Student.Web.Core/bin/Debug/netstandard2.0
+/src/Student.Web.Core/obj
