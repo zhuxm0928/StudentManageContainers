@@ -15,3 +15,4 @@
 /src/Student.Repositories/obj
 /src/Student.Web.Core/bin/Debug/netstandard2.0
 /src/Student.Web.Core/obj
+/.vs
