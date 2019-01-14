@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Text;
 
 namespace Student.Domain
@@ -8,6 +9,7 @@ namespace Student.Domain
     {
         public virtual TKey Id { get; set; }
 
+        [Column(TypeName = "datetime")]
         public DateTime CreateDate { get; set; } = DateTime.Now;
     }
 
