@@ -4,6 +4,8 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Student.Repositories.EntityFramework;
+using Student.Web.Models;
 
 namespace Student.Web.Controllers.Api
 {
@@ -11,10 +13,17 @@ namespace Student.Web.Controllers.Api
     [ApiController]
     public class UserController : ControllerBase
     {
+        private readonly StudentDbContext db;
+        public UserController(StudentDbContext _db)
+        {
+            db = _db;
+        }
+
         // GET: api/User
         [HttpGet]
         public IEnumerable<string> Get()
         {
+            var aa = db.Users.ToSql();
             return new string[] { "value1", "value2" };
         }
 
