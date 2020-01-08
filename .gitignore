@@ -3,19 +3,4 @@
 ################################################################################
 
 /.vs
-/src/Student.Web/obj
-/src/Student.Web/bin
-/src/Student.Domain/bin
-/src/Student.Domain/obj
-/src/Student.Infrastructure/bin
-/src/Student.Infrastructure/obj
-/src/Student.Repositories/bin
-/src/Student.Repositories/obj
-/src/Student.Web.Core/bin
-/src/Student.Web.Core/obj
-/src/Student.Core/bin
-/src/Student.Core/obj
-/src/Student.Application/bin
-/src/Student.Application/obj
-
 
