@@ -2,9 +2,7 @@
 # 此 .gitignore 文件已由 Microsoft(R) Visual Studio 自动创建。
 ################################################################################
 
-/.vs/StudentManageContainers/v15/.suo
-/.vs/slnx.sqlite
-/.vs/StudentManageContainers/v15/Server/sqlite3
+/.vs
 /src/Student.Web/obj
 /src/Student.Web/bin
 /src/Student.Domain/bin
@@ -19,5 +17,5 @@
 /src/Student.Core/obj
 /src/Student.Application/bin
 /src/Student.Application/obj
-/.vs
+
 
